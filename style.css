@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+header{
+    margin: 5px;
+    background-color: grey;
+    display: flex;
+    justify-content: right;
+}
+#tikla{
+    margin: 10px;
+    
+
+}
+p{
+    text-align: center;
+}
+.big{
+    margin: 30px;
+    background-color: green;
+    border: 2px solid tomato;
+    font-size: 1.5rem;
+    padding: 20px;
+    outline: 5px groove goldenrod;
+    outline-offset: -11px;
+}
+    
+a:link{
+    color: forestgreen;
+    text-decoration: none;
+}
+a:visited{
+    color: gold;
+}
+a:hover{
+    color: crimson;
+    background-color: gold;
+    font-size: 30px;
+}
+a:active{
+    color: cyan;
+}
+.small{
+    display: none;
+}
+@media screen and (max-width:992px){
+    body{
+    background-color:rgb(187, 159, 47);}
+}
+@media screen and (max-width:768px){
+    body{
+    background-color:orangered;}
+    header{
+        background-color: grey;
+        display: flex;
+        justify-content:center;
+    }
+    #tikla{
+        margin: 10px 50px;}
+}
+@media screen and (max-width:600px){
+    body{
+    background-color:purple;}
+    .big{
+        display: none;
+    }
+    .small{
+        display: inline-block;
+        margin: 100px;
+        background-color: rgba(red, green, blue, 0);
+        border: 15px solid red;
+        font-size: 1.5rem;
+        padding: 50px 0px;
+        padding-right: 0px;
+    }
+    header{
+        margin: 5px;
+        background-color: aqua;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    a:link{
+        color: black;
+        text-decoration: none;
+    }
+    a:visited{
+        color: black;
+    }
+    a:hover{
+        color: black;
+        background-color: purple;
+        font-size: 30px;
+    }
+    a:active{
+        color: white;
+    }
+}
+
